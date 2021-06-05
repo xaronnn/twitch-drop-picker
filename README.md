@@ -7,7 +7,7 @@ A script for idling [Twitch drops for Rust](https://twitch.facepunch.com/).
 ## Docker
 
 ```sh
-docker run --name=twitch-drop-box -d -e TWITCH_AUTH_TOKEN=auth_token_here -e IGNORED_DROPS="DOOR|LR" github.com/xaronnn/twitch-drop-picker:latest
+docker run --name=twitch-drop-box -d -e TWITCH_AUTH_TOKEN=auth_token_here -e IGNORED_DROPS="DOOR|LR" github.com/xaronnn/twitch-drop-picker:main
 ```
 
 ## CLI
