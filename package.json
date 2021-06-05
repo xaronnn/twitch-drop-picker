@@ -1,0 +1,14 @@
+{
+  "name": "twitch-drop-picker",
+  "author": "XARON",
+  "license": "MIT",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "puppeteer": "^9.1.1"
+  }
+}
