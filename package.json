@@ -3,9 +3,9 @@
   "author": "XARON",
   "license": "MIT",
   "private": true,
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^9.0.0",
