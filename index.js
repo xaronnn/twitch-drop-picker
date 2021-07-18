@@ -82,8 +82,8 @@ async function claimDrops(browser) {
 			await btn.click();
 		}
 
-		await page.waitForNavigation({ waitUntil: 'load' }),
-			console.log('Finished claiming ' + claimButtons.length + ' drops ✔️');
+		await page.waitForTimeout(500);
+		console.log('Finished claiming ' + claimButtons.length + ' drops ✔️');
 	} catch (e) {
 		console.log('No drops to claim 🕳️');
 	}
